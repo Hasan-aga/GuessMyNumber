@@ -115,4 +115,23 @@
     transform: translateX(-50%);
     margin-bottom: 1rem;
   }
+
+  /* fixing animation */
+  @keyframes horizontal-shaking {
+    0% {
+      transform: translateX(-50%) translateX(0);
+    }
+    25% {
+      transform: translateX(-50%) translateX(0.5rem);
+    }
+    50% {
+      transform: translateX(-50%) translateX(-0.5rem);
+    }
+    75% {
+      transform: translateX(-50%) translateX(0.5rem);
+    }
+    100% {
+      transform: translateX(-50%) translateX(0);
+    }
+  }
 }

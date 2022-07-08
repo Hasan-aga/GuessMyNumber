@@ -44,13 +44,13 @@ body {
     transform: translateX(0);
   }
   25% {
-    transform: translateX(5px);
+    transform: translateX(0.5rem);
   }
   50% {
-    transform: translateX(-5px);
+    transform: translateX(-0.5rem);
   }
   75% {
-    transform: translateX(5px);
+    transform: translateX(0.5rem);
   }
   100% {
     transform: translateX(0);
