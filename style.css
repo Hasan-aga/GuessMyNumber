@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: #222;
   font-family: "Press Start 2P", cursive;
@@ -12,7 +16,6 @@ body {
   font-size: 2rem;
   color: #555;
   overflow: hidden;
-
   overflow: hidden;
 }
 
@@ -30,10 +33,6 @@ body {
 
 .button:hover {
   cursor: pointer;
-}
-
-html {
-  font-size: 62.5%;
 }
 
 .header {
