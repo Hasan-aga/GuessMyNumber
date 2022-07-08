@@ -80,6 +80,10 @@
     margin-bottom: 8rem;
   }
 
+  .button-check {
+    display: none;
+  }
+
   .left-ui {
     position: fixed;
     bottom: 1rem;
@@ -93,8 +97,8 @@
   .result-hint {
     line-height: 1.8;
     position: fixed;
-    bottom: 8%;
-    left: 70%;
+    bottom: 15%;
+    left: 50%;
     top: auto;
     right: auto;
     transform: translateX(-50%);
