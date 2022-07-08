@@ -31,7 +31,6 @@
 
 /* 450px */
 @media (max-width: 28em) {
-  .button-again,
   .header-range,
   .title,
   .display {
@@ -65,6 +64,10 @@
     margin-bottom: 20rem;
   }
 
+  .title {
+    margin-bottom: 4rem;
+  }
+
   .ui {
     flex-direction: column-reverse;
     gap: 1rem;
@@ -75,5 +78,14 @@
     width: 95%;
     row-gap: 2.4rem;
     margin-bottom: 9rem;
+  }
+
+  .button-again {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    top: auto;
+    right: auto;
+    transform: translateX(-50%);
   }
 }
