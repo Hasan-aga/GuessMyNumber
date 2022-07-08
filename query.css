@@ -80,6 +80,15 @@
     margin-bottom: 8rem;
   }
 
+  .user-input {
+    font-size: 3rem;
+    width: 14rem;
+    padding: 0.8rem 0;
+    background-color: inherit;
+    color: #f7f7f7;
+    border: solid 2px #f7f7f7;
+  }
+
   .button-check {
     display: none;
   }
