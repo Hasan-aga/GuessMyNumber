@@ -46,10 +46,6 @@
     transform: translate(0);
   }
 
-  .button-again {
-    width: 40%;
-  }
-
   .header-range {
     width: 80%;
   }
@@ -69,11 +65,13 @@
   }
 
   .ui {
+    font-size: 1.8rem;
     flex-direction: column-reverse;
     gap: 1rem;
   }
 
   .right-ui {
+    font-size: inherit;
     text-align: center;
     width: 95%;
     row-gap: 2.4rem;
@@ -81,19 +79,17 @@
   }
 
   .user-input {
-    font-size: 3rem;
+    font-size: inherit;
     width: 14rem;
-    padding: 0.8rem 0;
+    padding: 1.6rem 0;
     background-color: inherit;
     color: #f7f7f7;
     border: solid 2px #f7f7f7;
   }
 
-  .button-check {
-    display: none;
-  }
-
   .left-ui {
+    font-size: inherit;
+    flex-direction: row;
     position: fixed;
     bottom: 1rem;
     left: 30%;
@@ -113,9 +109,14 @@
     transform: translateX(-50%);
     margin-bottom: 1rem;
   }
+  .button,
+  .button-again {
+    padding: 2rem 0.5rem;
+    font-size: 1.6rem;
+    width: min-content;
+  }
 
   .button-again {
-    width: 30%;
     position: fixed;
     bottom: 1rem;
     left: 70%;
