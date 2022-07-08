@@ -90,6 +90,17 @@
     margin-bottom: 1rem;
   }
 
+  .result-hint {
+    line-height: 1.8;
+    position: fixed;
+    bottom: 8%;
+    left: 70%;
+    top: auto;
+    right: auto;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;
+  }
+
   .button-again {
     width: 30%;
     position: fixed;
