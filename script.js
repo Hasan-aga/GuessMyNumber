@@ -1,8 +1,18 @@
 "use strict";
 
 const writeToUser = function (message) {
-  document.querySelector(".result-hint").textContent = message;
+  const resutHintElement = document.querySelector(".result-hint");
+  resutHintElement.textContent = message;
+  addShakeAnimationToElement(resutHintElement);
 };
+
+const addShakeAnimationToElement = function (element) {
+  element.classList.add("update-animation");
+  setTimeout(function () {
+    element.classList.remove("update-animation"); // Remove animation
+  }, 250);
+};
+
 let gameOver = false;
 const originalScore = 21;
 let score = originalScore;

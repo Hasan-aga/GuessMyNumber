@@ -35,6 +35,28 @@ body {
   cursor: pointer;
 }
 
+.update-animation {
+  animation: horizontal-shaking 200ms linear;
+}
+
+@keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .header {
   color: #f7f7f7;
   border-bottom: 5px solid #f7f7f7;
